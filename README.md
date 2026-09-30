@@ -1,17 +1,23 @@
 # starter-box
-This is the tutorial repo to help you begin your journey in the Computer Science Club.  
+
+This is the tutorial repository to help you begin your journey in the Computer Science Club.
+
+### Step-by-Step Instructions
+
+> **Note:** Whenever you see `<your-username>`, replace it with your actual GitHub username (without the angle brackets).
+
+1. **Fork & Clone**  
+   Fork this repository to your personal GitHub account using the **Fork** button at the top of the page. Then, clone your fork locally:
+   git clone [https://github.com/](https://github.com/)<your-username>/starter-box.git
  
-- **Fork & Clone**: Fork this repository to your own personal Github account. Then clone it localy. **REPLACE "<your-username>" WITH YOUR ACTUALL GITHUB USERNAME**
-git clone https://github.com/<their-username>/club-roster.git
+2. **Create a Branch**: This is so you don't work directly on the main branch.
+git checkout -b add-profile-<your-username>
 
-- **Create a Branch**: This is so you don't work directly on the main branch. **REPLACE "<your-username>" WITH YOUR ACTUALL GITHUB USERNAME**
-git checkout -b add-profile-<username>
-
-- **Duplicate the Template**: Use these commands in your command line **REPLACE "<your-username>" WITH YOUR ACTUALL GITHUB USERNAME**
+3. **Duplicate the Template**: Use these commands in your command line.
 Linux and macOS: cp members/_template.md members/<your-username>.md
 Windows Powershell: Copy-Item members\_template.md members\<your-username>.md
 
-- **Fill it out, commit, and push**: Follow the following commands **REPLACE "<your-username>" WITH YOUR ACTUALL GITHUB USERNAME**
+4. **Fill it out, commit, and push**: Follow the following commands:
 git add members/<your-username>.md
 git commit -m "add: <your-username> profile card"
 git push origin add-profile-<username>
